@@ -2,3 +2,64 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabeza{
+    display: flex;
+    background-color: aliceblue;
+    box-shadow: rgb(77, 77, 77) 0px 5px 5px 2px;
+}
+
+header{
+    display: flex;
+    margin: 30px;
+}
+
+.line{
+    background-color: black;
+    padding: 0.1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.name{
+    display: block; 
+}
+
+.menu{
+    display: flex;
+    margin-right: 50px;
+    left: 175%;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    top: 14px;
+}
+
+.container{
+    margin-top: 15%;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.project{
+    justify-content: center;
+    padding: 12px;
+    background-color: rgb(129, 149, 167);
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px 0px;
+}
