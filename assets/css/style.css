@@ -63,3 +63,77 @@ h2{
     border-radius: 10px;
     box-shadow: black 0px 0px 10px 0px;
 }
+
+.nul{
+    display: flex;
+    background-color: aliceblue;
+    margin: 0;
+    margin-top: 18.5%;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.images{
+    text-align: center;
+}
+
+.img1{
+    width: 400px;
+    margin-top: 300px;
+}
+
+.img2{
+    margin-top: -60px;
+}
+
+.sect1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nul2{
+    display: flex;
+    background-color: aliceblue;
+    margin: 0;
+    margin-top: 15%;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.sobremi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.733);
+    margin-left: 200px;
+    width: 600px;
+    padding: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.nul3{
+    display: flex;
+    background-color: aliceblue;
+    margin: 0;
+    margin-top: 13%;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.person{
+    display: flex;
+    width: 300px;
+    margin-left: 68%;
+    margin-top: -29%;
+}
