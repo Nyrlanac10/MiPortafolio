@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .cabeza{
     display: flex;
     background-color: aliceblue;
@@ -25,18 +21,39 @@ header{
     margin-right: 20px;
 }
 
+.perfil{
+    width: 60px;
+    border-radius: 50px;
+    box-shadow: black 0px 2px 8px 0px;
+}
+
 .name{
-    display: block; 
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.separador{
+    background-color: black;
+    padding: 0.1px;
+    margin-left: 23px;
+    box-shadow: gray 0px 1px 3px 1px;
 }
 
 .menu{
+    border: none;
     display: flex;
     margin-right: 50px;
-    left: 175%;
+    left: 120%;
     position: relative;
     cursor: pointer;
     text-align: center;
     top: 14px;
+    background-color:rgb(129, 149, 167);
+    margin-bottom: 15px;
+    padding: 13px 13px 13px 13px;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 5px 0px;
 }
 
 .container{
@@ -113,7 +130,7 @@ h2{
     align-items: center;
     background-color: rgba(240, 248, 255, 0.733);
     margin-left: 200px;
-    width: 600px;
+    width: 700px;
     padding: 50px;
     text-align: center;
     margin-top: 200px;
@@ -137,3 +154,55 @@ h2{
     margin-left: 68%;
     margin-top: -29%;
 }
+
+.constancias{
+    justify-content: center;
+    padding: 12px;
+    background-color: rgb(129, 149, 167);
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px 0px;
+    font-size: 15px;
+}
+
+.misproyect{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.card{
+    margin-top: 10%;
+}
+
+.fin{
+    margin-top: 8%;
+    background-color: rgb(215, 224, 235);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cont{
+    margin-left: 48.5%;
+}
+
+.mail{
+    margin-top: -10px;
+    width: 70px;
+}
+
+.copy{
+    text-align: center;
+    margin: 0;
+}
+
